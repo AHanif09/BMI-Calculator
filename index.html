@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Kalkulator BMI</h1>
+        <form action="#" method="post">
+            <table>
+                <tr>
+                    <th>Keterangan</th>
+                    <th>Input</th>
+                </tr>
+                <tr>
+                    <td>Berat Badan (kg):</td>
+                    <td><input type="number" name="weight" id="weight" required></td>
+                </tr>
+                <tr>
+                    <td>Tinggi Badan (cm):</td>
+                    <td><input type="number" name="height" id="height" required></td>
+                </tr>
+            </table>
+            <input type="submit" id="submit" value="Hitung BMI">
+            <div id="result"></div>
+        </form>
+    </div>   
+</body>
+</html>
