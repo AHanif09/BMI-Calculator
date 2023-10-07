@@ -8,26 +8,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="container">
+    <section id="container">
         <h1>Kalkulator BMI</h1>
-        <form action="#" method="post">
-            <table>
-                <tr>
-                    <th>Keterangan</th>
-                    <th>Input</th>
-                </tr>
-                <tr>
-                    <td>Berat Badan (kg):</td>
-                    <td><input type="number" name="weight" id="weight" required></td>
-                </tr>
-                <tr>
-                    <td>Tinggi Badan (cm):</td>
-                    <td><input type="number" name="height" id="height" required></td>
-                </tr>
-            </table>
+        <form id="form" name="form">
+            <h5>Masukkan Berat Badan (KG)</h5>
+            <input type="number" name="weight" id="weight" placeholder="Berat Badan(kg)" required> 
+            <h5>Masukkan Tinggi Badan (CM)</h5>
+            <input type="number" name="height" id="height" placeholder="Tinggi Badan(cm)" required>
             <input type="submit" id="submit" value="Hitung BMI">
             <div id="result"></div>
         </form>
-    </div>   
+    </section>   
 </body>
 </html>
