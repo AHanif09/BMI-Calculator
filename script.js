@@ -27,6 +27,6 @@ function submit() {
 
 let submitData = document.getElementById('submit')
     submitData.addEventListener("click", (event) => {
-    event.preventDefault();
+    event.preventDefault();git
     submit();
     });
